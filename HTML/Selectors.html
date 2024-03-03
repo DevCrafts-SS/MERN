@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Day 1</title>
+	<style>
+		/* Univeral Selectors */
+		* {
+			text-align: center;
+			align-items: center;
+			color: black;
+		}
+
+		/* Element Selectors */
+		p {
+			color: red;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Class Selectors */
+		.p2 {
+			color: black;
+		}
+
+		/* ID Selectors */
+		#p3 {
+			color: green;
+		}
+
+		/* Attribute Selectors */
+		p[value="1"] {
+			color: blue;
+		}
+
+		/* Adjacent and general sibling selectors */
+		p[value="1"]+p {
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>CSS Selector</h1>
+	<h2>Applying CSS to Different Parts of HTML</h2>
+		<p>1. The element Selector target elements based on their HTMl tag name.</p>
+		<p class="p2">2. Class Selectors target elements based on the value of the class attribute.</p>
+		<p id="p3">3. ID selectors target elements based on the value og the id attribute</p>
+		<p value="1">4. Attribute selectors target elements based on their attribute and values.</p>
+		<p>5. The universal selector targets all elements.</p>
+</body>
+
+</html>
